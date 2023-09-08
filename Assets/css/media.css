@@ -1,0 +1,373 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --gray: #808080;
+    --light_gray: #E6E6E6;
+    --border-gray: #EDEDED;
+    --bg-gray: #f8f8f8;
+    --transparent_gray: #B1B2B3;
+}
+@media only screen and (max-width: 1440px){
+    .popular-section {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+}
+@media only screen and (max-width: 1400px){
+    .login-btn {
+        margin-bottom: 10px;
+    }
+    .grid, .grid2 {
+        margin-left: 16px;
+    }
+
+}
+@media only screen and (max-width: 1365px){
+    .box-value {
+        display: none;
+    }
+    .mbl-search-btn {
+        display: block;
+        position: fixed;
+        right: 2.5%;
+        bottom: 5%;
+        z-index: 5;
+        border: 0;
+        background-color: transparent;
+    }
+    .section-wrapper {
+        padding-left: 32px;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .box-value {
+        display: none;
+    }
+    .looking-f-coach {
+        margin: 32px 16px;
+        padding: 16px 0;
+    }
+    .content-gap {
+        padding-right: 0px;
+    }
+    .coach-sec-padding, .coach-sec-right-padding {
+        padding: 40px 52px 57px 52px;
+    }
+    .coach-sec-right-padding { 
+        padding: 0px 52px 0px 52px;
+    }
+    .image-top {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-top::before {
+        content: url(https://i.postimg.cc/6qJfSrR5/letter-icon-mbl.png);
+        padding-bottom: 37px;
+    }
+    .coach-image-top::before {
+        content: url(https://i.postimg.cc/htw3SdRT/human-search-mbl.png);
+        padding-bottom: 37px;
+    }
+    .coach-image-top {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hidden-letter {
+        display: none !important;
+    }
+    .human-img {
+        display: none;
+    }
+    .mobile-justification {
+        justify-content: center !important;
+    }
+    .mid-line::after {
+        content: none;
+    }
+    .coaching-border {
+        margin: 0 16px;
+    }
+    .filter-wrap {
+        margin: 5px 16px;
+    }
+    .select2-container {
+        width: 100% !important;
+    }
+    .news-caoches-bg {
+        padding: 16px;
+    }
+    .desktop-footer, .copyright {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .mobile-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+    .row-style {
+        margin: 0;
+    }
+    .desktop-head {
+        display: none;
+    }
+    .display-active {
+        transition: all 0.2s ease-in;
+        position: absolute;
+        background: var(--white);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+        display: block;
+        z-index: 1;
+    }
+    .display-active.show {
+        opacity: 1;
+        visibility: visible;
+    }
+    .cancel.hide {
+        opacity: 0;
+        visibility: hidden;
+    }
+    #display_search1 {
+        position: fixed;
+    }
+    .accordion-header {
+        font-family: 'Europa-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #000000;
+    }
+    .accordion-button::after {
+        background-size: 6px !important;
+        height: 6px !important;
+    }
+    .accordion-item {
+        border: none !important;
+    }
+    #accordionFlushExample {
+        border-top: 1px solid #E6E6E6;
+        border-bottom: 1px solid #E6E6E6;
+        margin: 0 16px;
+    }
+    .accordion {
+        display: block;
+    }
+    .desktop-footer {
+        display: none;
+    }
+    .mbl-menu-search {
+        display: flex;
+        margin-top: 26px;
+        margin-bottom: 24px;
+    }
+    .search-mbl {
+        margin-right: 16px;
+        border-radius: 0;
+    }
+    .search-mbl::placeholder {
+        color: var(--gray);
+    }
+    .cancel {
+        padding: 0;
+        background-color: var(--white);
+        border: 0;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        color: var(--black);
+    }
+    .search-box-title {
+        margin-bottom: 16px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+    .sec-gap {
+        padding-left: 16px;
+    }
+    .border-right {
+        border-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .left-style {
+        padding-left: 0px;
+    }
+    .coaching-edu-top {
+        margin-top: 40px;
+    }
+    .input-wrapper {
+        width: 100%;
+    }
+    .filter-wrap {
+        flex-direction: column-reverse;
+    }
+    .flex-width {
+        width: 50%;
+    }
+    .masonry-buttons {
+        margin: 16px 0 32px 0;
+    }
+    .popular-section {
+        padding: 16px;
+        margin: 24px 16px;
+    }
+    .button-style {
+        margin-bottom: 56px;
+    }
+    .section-wrapper {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .head-text {
+        padding-right: 19%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .login-btn {
+        font-family: 'Europa-Regular';
+        padding: 8px 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: var(--white);
+    }
+    .suitable-coaches-wrapper {
+        background: linear-gradient(90deg, rgb(0 0 0 / 9%) 34.06%, rgba(0, 0, 0, 0) 68.65%), url(https://i.postimg.cc/1tFh2j9N/sec-one-mbl-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        padding: 29px 16px;
+        height: 151px;
+    }
+    .head-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.5px;
+    }
+    .head-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        padding-right: 24%;
+    }
+    .section-wrapper {
+        padding: 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .section-title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.5px;
+    }
+    .section-description {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+    .subsection-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .subsection-des {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 8px;
+    }
+    .border-right {
+        border-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .button-style {
+        padding: 8px 12px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+    .question-icon::before {
+        content: url(https://i.postimg.cc/Fz3TG9Pq/help-circle.png);
+        float: left;
+        clear: left;
+    }
+    .subsection-left {
+        margin-left: 40px;
+    }
+    .sec-gap {
+        padding-top: 40px;
+    }
+    .coach-button {
+        font-family: 'Europa-Bold';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .news-coaches-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .news-coaches-des {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .city-people-image {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .featured-story-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .new-project-des {
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 16px;
+    } 
+    .wt-title {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 16px;
+    }  
+    .wt-des {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .new-project-bottom {
+        padding-bottom: 16px;
+    }
+    .social-media {
+        margin-top: 32px;
+    }
+    .desktop-footer-logo {
+        display: none;
+    }
+    .mobile-footer-logo {
+        display: block;
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+    }
+}
